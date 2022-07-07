@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.card{
+    height: min(478px,60vh);
+    width: min(716px,70%);
+    box-shadow: 0 .25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 .375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.75rem;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.row1{
+    height: 45%;
+    width: 100%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.invitation > h1 {
+    color : hsl(179, 61%, 44%);
+    margin-top: 6%;
+}
+.invitation > h3 {
+    color: hsl(71, 73%, 54%);
+    margin: 1rem 0 0.7rem 0;
+}
+.invitation > p {
+    color: rgb(154, 146, 146);
+    line-height: 1.7rem;
+}
+
+.row2{
+    display: flex;
+    height: 55%;
+    width: 100%;
+    justify-content: space-around;
+}
+.col{
+    width: 50%;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.subscription-dtls{
+    background-color: hsl(179, 61%, 44%);
+}
+
+.subscription-dtls > h2 {
+    color: #ffff;
+    padding-top: 2.5rem;
+}
+
+.subscription-dtls > p {
+    color: #ffff;
+    padding: 0 1rem 1rem 0;
+}
+
+.price-struct {
+    display: flex;
+    padding: 1rem 1rem 1rem 0;
+}
+.price {
+    font-size: 2.5rem;
+    color: #ffff;
+}
+.period {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+ button {
+    width: 10rem;
+    padding: .7rem;
+    background-color: hsl(71, 73%, 54%);
+    border:0;
+    border-radius: 0.3rem;
+    color: rgb(245, 236, 236);
+    box-shadow: 0 .25rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 .375rem 1.25rem 0 rgba(0, 0, 0, 0.19);
+ }
+.aboutus{
+    background-color: hsl(179, 47%, 49%);
+}
+.aboutus > h3 {
+    color: #ffff;
+    padding-top: 2.5rem;
+}
+
+.aboutus > p {
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 1rem;
+}
+
